@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp Page</title>
+</head>
+<body>
+    <form id="newTeam" action="/teams/<%=uid%> " method="post">
+        <label for="teamName">Teamname : <input name="teamName"  id="teamName" placeholder="enter teamName.." type="text"></label>
+        <button>Create</button>
+    </form>
+    <a href="/teams/<%= uid %> ">go back</a>
+</body>
+</html>

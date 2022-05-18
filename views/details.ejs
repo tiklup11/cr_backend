@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= chal.title%> </title>
+</head>
+<body>
+    <h1>Title : <%= chal.title %> </h1>
+    <h3>Category : <%= chal.type %> </h3>
+    <h3>Solved by : <%= chal.solvedBy %> </h3>
+    <h3>Target :<a href="localhost:2000">Visit the webapp</a> </h3>
+    <h3>Resources to learn :<a href="">Visit</a> </h3>
+
+    <!-- <h3>Solved before : </h3> -->
+    <form>
+    <label for="flag">Flag : <input id="flag" type="text" placeholder="enter flag here.." ></label>
+    <button>Submit Flag</button>
+    </form>
+</body>
+</html>
